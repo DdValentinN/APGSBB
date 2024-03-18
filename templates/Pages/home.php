@@ -5,7 +5,7 @@ $identity = $identity ?? [];
 
 ?>
 <header>
-        <h1>Page d'accueil</h1>
+        <h1>Accueil</h1>
     </header>
  
     <div class="container">

@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color:#1E30FA;
+    color:purple;
     -webkit-transition:all 0.2s linear;
     transition:all 0.2s linear;
 }
@@ -40,7 +40,7 @@ th a,
 .side-nav a:focus,
 .actions a:hover,
 .actions a:focus {
-    color:#1E30FA;
+    color:purple;
 }
 
 /* Utility */
@@ -53,15 +53,14 @@ th a,
 
 /* Main */
 body {
-    background: #f5f7fa;
+    background: whitesmoke;
 }
 .content {
     padding: 2rem;
     background: #ffffff;
     border-radius: 0.4rem;
     /* Thanks Stripe */
-    filter: drop-shadow(0px 10px 28px rgba(58, 40, 255, 0.03)) drop-shadow(0px 3px 20px rgba(92, 52, 253, 0.04)) drop-shadow(0px -2px 5px rgba(0, 100, 156, 0.02));
-}
+    filter: drop-shadow(0px 10px 28px rgba(58, 40, 255, 0.03)) drop-shadow(0px 3px 20px rgb(126, 4, 248)) drop-shadow(0px -2px 5px rgba(0, 100, 156, 0.02));}
 .actions a {
     font-weight: bold;
     padding: 0 0.4rem;
@@ -86,7 +85,7 @@ th {
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: #1E30FA;
+    color: purple;
 }
 .top-nav-title span {
     color: #404041;
@@ -148,27 +147,13 @@ th {
 .tag {
     font-size: 1em;
 
-    background: #eff8ff;
-    color: #2779bd;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 0.1em 0.5em;
-
-    border-radius: 4px;
-
 }
 .tag.hidden {
     display: none;
 }
 .tag.success {
     justify-content: center;
-    align-items: center;
-
-    background: #e3fcec;
-    color: #1f9d55;
+    
 }
 .tag.warning {
     justify-content: center;
@@ -180,10 +165,7 @@ th {
 }
 .tag.error {
     justify-content: center;
-    align-items: center;
-
-    background: #fcebea;
-    color: #cc1f1a;
+    
 }
 
 /* Forms */
