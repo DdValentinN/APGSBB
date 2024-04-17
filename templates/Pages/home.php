@@ -13,7 +13,7 @@ $identity = $identity ?? [];
 <div class="container">
     <div class="content">
         <?php if ($identity): ?>
-            Bonjourno <strong>
+            Bonjournooos <strong>
                 <?php 
                     if(empty($identity["first_name"]) && empty($identity["last_name"])) {
                         echo $identity["username"];
