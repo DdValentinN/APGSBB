@@ -3,6 +3,8 @@
 $identity = $this->getRequest()->getAttribute('identity');
 $identity = $identity ?? [];
 
+
+
 ?>
 <header>
     <h1>Accueil</h1>
@@ -11,7 +13,7 @@ $identity = $identity ?? [];
 <div class="container">
     <div class="content">
         <?php if ($identity): ?>
-            BONJOUR <strong>
+            Bonjourno <strong>
                 <?php 
                     if(empty($identity["first_name"]) && empty($identity["last_name"])) {
                         echo $identity["username"];
@@ -21,9 +23,9 @@ $identity = $identity ?? [];
                         echo $identity["first_name"];
                     } 
                 ?>
-            </strong>,<h2>Vous êtes bien connecté !</h2>
+            </strong>,<h2>Vous êtes bien connectés !</h2>
         <?php else: ?>
-            <p>Bienvenue sur l'accueil de l'AP GSB. Si vous souhaitez accéder à votre interface client et bénéficier de nos services : Connectez-vous. Si vous n'avez pas de compte, créez-en un.</p>
+            <p>Bienvenue sur l'accueil de l'AP GSB. Si vous souhaitez accéder à la pizza de la mama et votre interface client et bénéficier de nos services : Connectez-vous. Si vous n'avez pas de compte, créez-en un.</p>
         <?php endif; ?>
         <!-- Ici, vous pouvez ajouter du contenu supplémentaire, des liens, des images, etc. -->
     </div>
@@ -35,7 +37,7 @@ $identity = $identity ?? [];
         <!-- Conditions Générales d'Utilisation (CGU) -->
         <h2>Conditions Générales d'Utilisation (CGU)</h2>
         <p>
-            Bienvenue sur [Applifrais] !
+            Bienvenue sur [apagnan] !
             Les présentes Conditions Générales d'Utilisation (ci-après désignées par "CGU") régissent l'utilisation du site web [https://delattrevalentin.fr] (ci-après désigné par "le Site") et les services qui y sont proposés. Veuillez lire attentivement ces CGU avant d'utiliser le Site.
         </p>
         <h3>Acceptation des CGU</h3>
