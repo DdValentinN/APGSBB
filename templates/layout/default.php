@@ -55,7 +55,7 @@ $roleuser_name = $identity["role"];
             echo $this->Html->Link('Home', ['plugin' => NULL, 'controller' => 'Pages', 'action' => 'home']);
             if(isset($roleuser_name) && !empty($roleuser_name)){
                 if($roleuser == true){
-                    echo $this->Html->Link('Mes fiches', ['plugin' => NULL, 'controller' => 'Sheets', 'action' => 'list']);
+                    echo $this->Html->Link('Mes fichess', ['plugin' => NULL, 'controller' => 'Sheets', 'action' => 'list']);
                     echo $this->Html->Link('Fiches comptable', ['plugin' => NULL, 'controller' => 'Sheets', 'action' => 'complist']);
                     echo $this->Html->Link('Panel Admin', ['plugin' => NULL, 'controller' => 'Pages', 'action' => 'adminpanel']);
                     echo $this->Html->Link('Mon compte', ['plugin' => 'CakeDC/Users','controller' => 'Users', 'action' => 'profile']);
